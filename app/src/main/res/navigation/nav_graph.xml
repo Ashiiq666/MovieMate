@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ashiq.moviemate.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/orderListFragment"
+        android:name="com.ashiq.moviemate.ui.fragments.OrderListFragment"
+        android:label="fragment_order_list"
+        tools:layout="@layout/fragment_order_list" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.ashiq.moviemate.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/cinemaFragment"
+        android:name="com.ashiq.moviemate.ui.fragments.CinemaFragment"
+        android:label="fragment_cinema"
+        tools:layout="@layout/fragment_cinema" />
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.ashiq.moviemate.ui.fragments.LocationFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.ashiq.moviemate.ui.fragments.MovieDetailsFragment"
+        android:label="fragment_movie_details"
+        tools:layout="@layout/fragment_movie_details" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.ashiq.moviemate.ui.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/otpVerificationFragment"
+        android:name="com.ashiq.moviemate.ui.fragments.OtpVerificationFragment"
+        android:label="fragment_otp_verification"
+        tools:layout="@layout/fragment_otp_verification" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.ashiq.moviemate.ui.fragments.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/seatingFragment"
+        android:name="com.ashiq.moviemate.ui.fragments.SeatingFragment"
+        android:label="fragment_seating"
+        tools:layout="@layout/fragment_seating" />
+</navigation>
